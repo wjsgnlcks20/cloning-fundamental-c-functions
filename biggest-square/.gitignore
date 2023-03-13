@@ -1,0 +1,5 @@
+*.o
+*.txt
+*.dSYM/
+*.pl
+standard_input_map
