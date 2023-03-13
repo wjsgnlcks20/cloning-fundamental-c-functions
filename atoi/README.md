@@ -3,6 +3,7 @@
 ### man atoi
 
 DESCRIPTION
+
      The atoi() function converts the initial portion of the string pointed to by str to
      int representation.
 
@@ -14,10 +15,12 @@ DESCRIPTION
      passed a locale directly. See xlocale(3) for more information.
 
 IMPLEMENTATION NOTES
+
      The atoi() and atoi_l() functions are thread-safe and async-cancel-safe.
 
      The strtol() and strtol_l() functions are recommended instead of atoi() and atoi_l()
      functions, especially in new code.
 
 ERRORS
+
      The function atoi() need not affect the value of errno on an error.
